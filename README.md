@@ -1,6 +1,6 @@
 # Demonstration of Bazel runfiles bug
 
-This repository demonstrates a potential bug.
+This repository demonstrates a potential bug. https://github.com/bazelbuild/bazel/issues/12033.
 The bug is a race condition in runfiles tree creation, possibly Windows ONLY.
 
 Tested on:
