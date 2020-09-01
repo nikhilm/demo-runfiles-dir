@@ -81,6 +81,8 @@ INFO: Build completed successfully, 6 total actions
 
 Observe how it says `SYMLINK`.
 
+Also notice how build-runfiles.exe ran before java.exe.
+
 ![bad ordering](screenshots/bad.jpg)
 ![bad detail](screenshots/bad-details.jpg)
 
@@ -138,6 +140,8 @@ INFO: Build completed successfully, 5 total actions
 ```
 
 Observe how it says `SYMLINKD`!
+
+java.exe ran before runfiles.exe.
 
 ![good](screenshots/good.jpg)
 ![good details](screenshots/good-details.jpg)
